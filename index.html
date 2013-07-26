@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en">
+  <head>
+		<meta charset="UTF-8">
+		<meta name="author" content="Scot Matson">
+		<link type="text/css" rel="stylesheet" href="../_css/style.css"></style>
+		<title>Sign-Up Form Validator</title>
+	</head>
+	<body>
+		<section id="signupForm">
+			<div id="errorDisplay"></div>
+
+			<form method="post" action="#" name="signup" onsubmit="return validateForm();">
+				<fieldset>
+					<legend>Sign-Up</legend>
+					<label for="firstName">First Name</label>
+					<input type="text" id="firstName" name="firstName" />
+					<label for="lastName">Last Name</label>
+					<input type="text" id="lastName" name="lastName" />
+					<label for="zipCode">Zip Code</label>
+					<input type="text" id="zipCode" name="zipCode" />
+					<input type="submit" id="submit" value="submit" />
+				</fieldset>
+			</form>
+		</section>
+		
+		<script type="text/javascript" src="../_js/main.js"></script>
+		<script type="text/javascript" src="../_js/Form.js"></script> 
+	</body>
+</html>
